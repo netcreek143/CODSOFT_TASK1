@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #4568dc;
+}
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#skills li:hover {
+    background-color: #4568dc;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#resume {
+    text-align: center; /* Add this line */
+}
+#resume a {
+    display: inline-block;
+    background-color: #4568dc;
+    color: #fff;
+    text-decoration: none;
+    
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#resume a:hover {
+    background-color: #b06ab3;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#contact p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
